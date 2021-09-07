@@ -1,0 +1,88 @@
+/*
+    3 selectors:
+    -   elements h1 {}
+    -   class .className {}
+    -   id #nameOfId {}
+    -   All elements *{} 
+
+    # > . > Element
+*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    font-size: 16px;
+    color:#43464d);
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    background-color: royalblue;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+footer{
+    padding-left: 20px;
+}
+
+fieldset{
+    border: 2px dotted grey;
+    margin: 20px;
+    padding: 20px;
+}
+
+legend{
+    font-size: 1.5em;
+    font-weight: 850;
+}
+
+label{
+    display: block;
+    /* this moves all the entries of the form to the next line, showing them as a block */
+}
+
+fieldset > span {
+    border: 1px solid #6278B0;
+    color: #3b496d;
+    padding: 20px 40px;
+    display: block;
+    background: url(./../images/infoicon.png) no-repeat center left #CCE9F8;
+    background-position: 10px 16px;
+    margin-bottom: 15px;
+}
+
+.formElement{
+    padding: 5px 10px;
+    width: 300px; /* For responsive is better to use % */
+    margin-bottom: 15px;
+}
+
+#cancelForm, #submitForm{
+    padding: 10px 20px;
+    text-align: center;
+    background-color: indianred;
+    font-size: 1.3em;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+#submitForm {
+    background-color: rgb(120, 197, 120);
+}
+
+#submitForm:hover{
+    cursor: pointer;
+    background-color: rgb(145, 240, 145);
+}
+
+#cancelForm:hover{
+    cursor: pointer;
+    background-color: rgb(245, 109, 109);
+}
