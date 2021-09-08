@@ -86,3 +86,21 @@ fieldset > span {
     cursor: pointer;
     background-color: rgb(245, 109, 109);
 }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(172, 172, 172);
+    color: white;
+}
+
+.menu > li{
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.menu > li:hover{
+    cursor: pointer;
+    background-color: grey;
+}
